@@ -1,0 +1,88 @@
+# Lab 4 — Create One-Off Tasks for Research and Organisation
+
+> **Connected project:** this lab adds one more automation to the **Brightwave AI operations assistant** you began in Lab 1. If you fell behind, use the supplied Brightwave sample data to rejoin at this lab.
+
+## Goal
+
+Use one-off agent tasks to research a topic and to organise emails and Drive files.
+
+## What you'll build
+
+A structured research brief in a Doc, plus a tidied inbox and a proposed Drive folder structure.
+
+**Tools and techniques:** One-off tasks, research, summarisation, Gmail labels, Drive organisation, Docs
+
+## Prerequisites
+
+- Labs 1-3 complete, including your instruction template.
+- Some unread email this week and a Drive folder with a few files (or the Brightwave sample).
+
+## Steps
+
+### Step 1
+
+Run a research task with a clear output format. Ask for a short, structured brief you can reuse, not a wall of text.
+
+Instruction to give the agent (paste into Gemini Spark):
+
+```text
+Research 3 quick ways a small studio can use AI agents to save admin time. Give me a Doc with a heading and 3 bullet points each. Cite sources.
+```
+
+### Step 2
+
+Open the resulting Doc and check it against what you asked for: heading, three items, three bullets each, sources. Refine if a part is missing.
+
+### Step 3
+
+Now an organisation task on email. Ask the agent to propose labels for your unread mail — proposing, not applying, so you review first.
+
+Instruction to give the agent (paste into Gemini Spark):
+
+```text
+Suggest a label for each of my unread emails from this week: Client, Supplier, Internal or Newsletter. List them; do not apply labels yet.
+```
+
+### Step 4
+
+Review the proposed labels. Approve only the ones you agree with, then let the agent apply just those.
+
+### Step 5
+
+Run a Drive organisation task. Ask the agent to propose a folder structure for a set of files, without moving anything yet.
+
+Instruction to give the agent (paste into Gemini Spark):
+
+```text
+Look at the files in my 'Brightwave/Incoming' folder and propose a folder structure to organise them. Show the plan; do not move files yet.
+```
+
+### Step 6
+
+Read the proposed structure. Adjust one folder name, then approve the move for a small, safe subset of files.
+
+### Step 7
+
+Confirm in Drive that only the files you approved were moved, and nothing else changed.
+
+### Step 8
+
+Note which of these two tasks you would want to run regularly — you will schedule one in Topic 3.
+
+## Test it
+
+You have a research Doc in exactly the format you specified, labels applied only to the emails you approved, and a small set of files moved into an approved folder structure with nothing else changed.
+
+## Troubleshooting
+
+- **The research task returned generic content with no sources.** Add 'Cite sources' and specify the structure (heading + 3 bullets). Specific output requirements pull sharper results.
+- **The agent applied labels or moved files before you reviewed them.** Add 'Show the plan; do not apply/move yet.' Approve in a second step. Keep approvals ON.
+- **Files were moved into the wrong folders.** Undo from the activity log, refine the proposed structure, then approve a small subset first before running the rest.
+
+## Challenge
+
+Ask the agent to find duplicate or near-duplicate files in a Drive folder and propose which to archive — proposal only.
+
+## Reflection
+
+LO3 — Which one-off task saved you the most time, and would it be even more useful on a schedule?
