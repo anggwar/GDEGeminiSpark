@@ -2,239 +2,169 @@
 
 ### Workshop Project — **From Chatbot to AI Agent**
 
-*Explore Gemini Spark by connecting it to Google Workspace, giving it instructions, delegating real tasks, and turning a proven workflow into a reusable Skill.*
+*Connect Gemini Spark to Google Workspace, teach it how you work, delegate real tasks, and turn a useful workflow into a reusable Skill.*
 
 ---
 
-## 0. Overview
+## 0. Welcome
 
-Welcome to **Gemini Spark 101: Agent Exploration**!
+What happens when you stop asking Gemini questions...
 
-You've seen what Gemini Spark can do.
+and start **giving it a job**?
 
-Now it's time to actually **build something with it**.
+That's what we're exploring in **Gemini Spark 101: Agent Exploration**.
 
-In this hands-on workshop, you'll progressively turn Gemini from something you **chat with** into something you can **delegate work to**.
+This is a hands-on workshop for discovering what AI agents can do with Gemini Spark and Google Workspace — **without writing code**.
 
-We'll start by connecting Spark to your Google Workspace, teach it how you want a job done, give it real tasks, and eventually turn one of those instructions into a reusable Skill.
+You'll start with a blank agent, connect it to your Workspace, teach it how you want a task handled, and gradually give it more responsibility.
 
-No code required. Just bring your Google account, a little curiosity, and at least one annoying task you'd love to delegate. 😆
+By the end, you'll have something more useful than a clever prompt:
 
-### 📚 What You'll Learn
-
-- How to set up and connect **Gemini Spark** to Google Workspace.
-- How to write clear instructions for an AI agent.
-- How to create **one-off tasks** for research and organisation.
-- How to use Spark with **Gmail** for inbox summaries and reply drafting.
-- How to have Spark work across **Docs, Sheets and Slides**.
-- How to turn a proven instruction into a **reusable Skill**.
-- How to think about AI as something you can **delegate work to**, rather than simply ask questions.
-
-### 🛠️ What You'll Build
-
-Throughout the workshop, you'll progressively build your own AI agent workflows:
-
-1. **Connected Agent** — Spark connected to your Google Workspace.
-2. **Instructed Agent** — An agent with clear, reusable instructions.
-3. **Working Agent** — An agent that performs one-off tasks.
-4. **Workspace Agent** — An agent that works with Gmail, Drive, Docs, Sheets and Slides.
-5. **Reusable Skill** — A proven instruction turned into a repeatable capability.
+> **A repeatable way to delegate work to an AI agent.**
 
 ---
 
-## 🎯 Workshop Goals
+## 🏫 The Scenario
 
-By the end of this workshop, you will be able to:
+You're a **training coordinator** for a growing company.
 
-- Explain the difference between a **chatbot** and an **AI agent**.
-- Connect Gemini Spark to your Google Workspace.
-- Write instructions using **Context → Job → Output → Boundaries**.
-- Create and run one-off agent tasks.
-- Use Spark to research, organise and work with Workspace data.
-- Have Spark draft email replies while keeping yourself in the approval loop.
-- Generate and refine content across Docs, Sheets and Slides.
-- Create a reusable Skill from an instruction that already works.
+Every month, you organise internal training sessions for employees across different teams.
 
-Most importantly:
+Your work lives across Google Workspace:
 
-> **You won't just know what an AI agent is. You'll have built one.**
+- **Gmail** — registrations, questions, cancellations and trainer communication.
+- **Calendar** — training sessions, meetings and speaker availability.
+- **Drive** — training materials, attendance records and previous sessions.
+- **Docs & Sheets** — participant lists, session briefs and follow-up reports.
+
+The programme is growing.
+
+The workload is growing with it.
+
+So you've decided to build a **Gemini Spark training assistant**.
+
+It won't replace you.
+
+Instead, it will take care of routine work while **you stay in control of the important decisions and outputs**.
 
 ---
 
-## 🧭 The Journey
+## 🛠️ What We'll Build
 
-We'll progressively move from a simple conversation to a reusable agent capability:
+We'll progressively turn a blank Spark agent into a useful Workspace assistant:
 
 ```text
 CONNECT
    ↓
-INSTRUCT
+TEACH
    ↓
 DELEGATE
    ↓
-AUTOMATE
+PRODUCE
    ↓
-CREATE
-   ↓
-BUILD A SKILL
+REUSE
 ```
 
-Each step builds on the previous one.
+### 01 — Meet Your Agent
+Connect Gemini Spark to Gmail, Calendar and Drive, then run your first supervised task.
 
-Don't worry if you're new to AI agents — we'll take it one step at a time.
+### 02 — Teach It the Job
+Learn how to brief an agent using:
+Context → Job → Output → Boundaries
 
-## 🧪 Hands-On Labs
-### Lab 01 — Set Up Gemini Spark and Connect Your Google Workspace
+### 03 — Send It to Work
+Give Spark a real one-off assignment for research or organisation.
 
-Get Spark ready for action.
+### 04 — Put It on Inbox Duty
+Use Spark to understand incoming email and prepare replies for your review.
 
-You'll connect Spark to:
-- Gmail
-- Calendar
-- Drive
+### 05 — Make It Produce
+Have Spark create and refine useful outputs across Docs, Sheets and Slides.
 
-Then you'll run your first supervised task.
+### 06 — Teach It a Skill
+Take something that already works and turn it into a reusable Skill.
 
-👉 Open Lab 01 →
+## 🎯 By the End
 
-### Lab 03 — Instruct Your Agent
+You will have learned how to:
 
-An agent isn't a mind reader.
+1. Recognise the difference between a chatbot interaction and an agent workflow.
+2. Connect Gemini Spark with Google Workspace.
+3. Give an agent clear, structured instructions.
+4. Delegate one-off work.
+5. Use an agent across multiple Workspace applications.
+6. Keep a human in the review loop.
+7. Turn a successful workflow into a reusable Skill.
 
-Learn how to write clear instructions that tell your agent:
+Most importantly:
+You'll know what to delegate and how to brief your agent to do it.
 
-What it needs to know.
-What it should do.
-What the result should look like.
-What it should avoid doing.
+## 🧠 The Agent Brief
 
-You'll also create a reusable instruction template.
+Throughout this workshop, we'll use a simple way to think about agent instructions:
 
-👉 Open Lab 03 →
+CONTEXT
+What does the agent need to know?
 
-### Lab 04 — Create One-Off Tasks
+JOB
+What should the agent do?
 
-Sometimes you don't need automation.
+OUTPUT
+What should the result look like?
 
-You just need to say:
+BOUNDARIES
+What should the agent avoid doing?
 
-"Go do this."
+Think of it less like writing a prompt...
 
-Use Spark to:
-
-Research a topic.
-Organise information.
-Work with Gmail and Drive.
-
-👉 Open Lab 04 →
-
-### Lab 05 — Automate Email
-
-Let's put Spark to work in your inbox.
-
-You'll create:
-
-A prioritised inbox summary.
-AI-generated reply drafts for your approval.
-
-The important rule:
-
-Draft ≠ Send.
-
-You remain in control of what actually leaves your inbox.
-
-👉 Open Lab 05 →
-
-### Lab 06 — Work Across Docs, Sheets and Slides
-
-Now let's make the agent produce things.
-
-You'll have Spark:
-
-Create a Google Doc.
-Populate a Google Sheet.
-Draft a Google Slides presentation.
-Review and refine the outputs.
-
-One agent.
-
-Multiple Workspace applications.
-
-👉 Open Lab 06 →
-
-### Lab 07 — Create a Custom Reusable Skill
-
-You've already created instructions that work.
-
-Now let's make them reusable.
-
-You'll turn a proven instruction into a named Skill, then run it again with different inputs.
-
-The goal:
-
-Teach it once. Use it repeatedly.
-
-👉 Open Lab 07 →
+and more like briefing a colleague.
 
 ## 🧰 What You'll Need
 
 Before starting, make sure you have:
 
-1. A Google Account with access to Gemini Spark.
-2. Access to Google Workspace.
-3. A modern web browser.
-4. Permission to connect Gemini Spark to your Workspace apps.
-5. Around 60–90 minutes.
-6. One annoying, repetitive task you'd like an AI agent to handle. 😆
+A Google Account with access to Gemini Spark.
+Access to Google Workspace.
+A modern web browser.
+Permission to connect Spark to your Workspace apps.
+Around 60–90 minutes.
+A real or fictional repetitive task you'd love to delegate.
 
-## ⚠️ Important
+⚠️ Workspace Access
+Spark may ask for permission to access information or perform actions in your Google Workspace.
 
-Spark may request permission to access information or perform actions in your Google Workspace.
-Read the permissions carefully before approving them.
-For workshop purposes, a dedicated or test Google account may be preferable if you're experimenting with agent actions.
+Review permissions carefully before approving them.
 
-## 🧠 The Agent Mindset
+If you're experimenting with real data, use information you're authorised to share and process.
 
-A traditional Gemini interaction often looks like:
-You → Prompt → Gemini → Answer
-
-An agent workflow looks more like:
-You → Goal
-        ↓
-      Agent
-        ↓
-   Multiple steps
-        ↓
-     Actions
-        ↓
-      Result
-
-The shift is simple:
-
-Don't just ask:
-"Can you help me with this?"
-
-Try:
-"Here's the job. Here's the context. Here's what I want back. Here's what you must not do."
-
-You're briefing an assistant.
-
-## 🚀 Self-Paced
-
-This workshop is designed to be completed live, but you can also work through the labs at your own pace.
+## 🧪 Workshop Labs
+Lab	Mission
+01 — Meet Your Agent	Connect Spark to your Workspace and run your first task.
+02 — Teach It the Job	Build clear instructions using the Agent Brief.
+03 — Send It to Work	Delegate a one-off research or organisation task.
+04 — Put It on Inbox Duty	Summarise email and prepare replies for review.
+05 — Make It Produce	Create and refine Docs, Sheets and Slides.
+06 — Teach It a Skill	Turn a proven workflow into a reusable capability.
 
 👉 Open the Codelabs →
 
-## 👋 Before You Start
+## 🚀 Self-Paced
 
-One last thing.
-Don't try to build the world's most sophisticated AI agent today.
+The workshop is designed for a live 60–90 minute session, but the labs can also be completed independently.
+
+Start here:
+
+👉 Open the Codelabs →
+
+## 👋 One Last Thing
+
+Don't start by trying to build the world's smartest agent.
 
 Start with something annoying.
 Something repetitive.
 Something you already know how to do.
 
 Then ask:
-"Could I delegate this?"
+Could I delegate this?
 
-That's where the fun begins. 🚀
+That's the beginning of agent thinking. 🚀
