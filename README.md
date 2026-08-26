@@ -16,7 +16,7 @@ That's what we're exploring in **Gemini Spark 101: Agent Exploration**.
 
 This is a hands-on workshop for discovering what AI agents can do with Gemini Spark and Google Workspace — **without writing code**.
 
-You'll start with a blank agent, connect it to your Workspace, teach it how you want a task handled, and gradually give it more responsibility.
+You'll start by setting up Spark and connecting it to your Workspace, teach it how you want a task handled, and gradually give it more responsibility.
 
 By the end, you'll have something more useful than a clever prompt:
 
@@ -51,7 +51,7 @@ Instead, it will take care of routine work while **you stay in control of the im
 
 ## 🛠️ What We'll Build
 
-We'll progressively turn a blank Spark agent into a useful Workspace assistant:
+We'll progressively turn Spark into a useful Workspace assistant:
 
 ```text
 CONNECT
@@ -66,23 +66,32 @@ REUSE
 ```
 
 ### 01 — Meet Your Agent
+
 Connect Gemini Spark to Gmail, Calendar and Drive, then run your first supervised task.
 
 ### 02 — Teach It the Job
+
 Learn how to brief an agent using:
-Context → Job → Output → Boundaries
+
+**Context → Job → Output → Boundaries**
 
 ### 03 — Send It to Work
+
 Give Spark a real one-off assignment for research or organisation.
 
 ### 04 — Put It on Inbox Duty
+
 Use Spark to understand incoming email and prepare replies for your review.
 
 ### 05 — Make It Produce
+
 Have Spark create and refine useful outputs across Docs, Sheets and Slides.
 
 ### 06 — Teach It a Skill
+
 Take something that already works and turn it into a reusable Skill.
+
+---
 
 ## 🎯 By the End
 
@@ -97,74 +106,86 @@ You will have learned how to:
 7. Turn a successful workflow into a reusable Skill.
 
 Most importantly:
-You'll know what to delegate and how to brief your agent to do it.
+
+> **You'll know what to delegate and how to brief your agent to do it.**
+
+---
 
 ## 🧠 The Agent Brief
 
 Throughout this workshop, we'll use a simple way to think about agent instructions:
 
-CONTEXT
-What does the agent need to know?
-
-JOB
-What should the agent do?
-
-OUTPUT
-What should the result look like?
-
-BOUNDARIES
-What should the agent avoid doing?
+| Part | Question |
+|---|---|
+| **CONTEXT** | What does the agent need to know? |
+| **JOB** | What should the agent do? |
+| **OUTPUT** | What should the result look like? |
+| **BOUNDARIES** | What should the agent avoid doing? |
 
 Think of it less like writing a prompt...
 
-and more like briefing a colleague.
+and more like **briefing a colleague**.
+
+---
 
 ## 🧰 What You'll Need
 
 Before starting, make sure you have:
 
-A Google Account with access to Gemini Spark.
-Access to Google Workspace.
-A modern web browser.
-Permission to connect Spark to your Workspace apps.
-Around 60–90 minutes.
-A real or fictional repetitive task you'd love to delegate.
+- A Google Account with access to Gemini Spark.
+- Access to Google Workspace.
+- A modern web browser.
+- Permission to connect Spark to your Workspace apps.
+- Around 60–90 minutes for the guided workshop.
+- A real or fictional repetitive task you'd love to delegate.
 
-⚠️ Workspace Access
+### ⚠️ Workspace Access
+
 Spark may ask for permission to access information or perform actions in your Google Workspace.
 
 Review permissions carefully before approving them.
 
 If you're experimenting with real data, use information you're authorised to share and process.
 
-## 🧪 Workshop Labs
-Lab	Mission
-01 — Meet Your Agent	Connect Spark to your Workspace and run your first task.
-02 — Teach It the Job	Build clear instructions using the Agent Brief.
-03 — Send It to Work	Delegate a one-off research or organisation task.
-04 — Put It on Inbox Duty	Summarise email and prepare replies for review.
-05 — Make It Produce	Create and refine Docs, Sheets and Slides.
-06 — Teach It a Skill	Turn a proven workflow into a reusable capability.
+---
 
-👉 Open the Codelabs →
+## 🧪 Workshop Labs
+
+| Lab | Mission |
+|---|---|
+| [**01 — Meet Your Agent**](codelabs/Lab%2001%20%E2%80%94%20Meet%20Your%20Agent%3A%20Connect%20Spark%20to%20Workspace.md) | Connect Spark to your Workspace and run your first supervised task. |
+| [**02 — Teach It the Job**](codelabs/Lab%2002%20%E2%80%94%20Teach%20It%20the%20Job%3A%20Building%20an%20Agent%20Brief.md) | Build clear instructions using the Agent Brief. |
+| [**03 — Send It to Work**](codelabs/Lab%2003%20%E2%80%94%20Send%20It%20to%20Work%3A%20Research%20%26%20Organise.md) | Delegate one-off research and organisation tasks. |
+| [**04 — Put It on Inbox Duty**](codelabs/Lab%2004%20%E2%80%94%20First%20Automation%3A%20Inbox%20Duty.md) | Prioritise email and prepare replies for review. |
+| [**05 — Make It Produce**](codelabs/Lab%2005%20%E2%80%94%20Make%20Something%3A%20Docs%2C%20Sheets%20%26%20Slides.md) | Create and refine Docs, Sheets and Slides. |
+| [**06 — Teach It a Skill**](codelabs/Lab%2006%20%E2%80%94%20Build%20a%20Skill%3A%20Teach%20It%20Once%2C%20Reuse%20It.md) | Turn a proven workflow into a reusable capability. |
+
+👉 **[Open the Codelabs →](codelabs/)**
+
+---
 
 ## 🚀 Self-Paced
 
-The workshop is designed for a live 60–90 minute session, but the labs can also be completed independently.
+The workshop is designed for a **60–90 minute guided session**, but the labs can also be completed independently at your own pace.
 
 Start here:
 
-👉 Open the Codelabs →
+👉 **[Open the Codelabs →](codelabs/)**
+
+---
 
 ## 👋 One Last Thing
 
 Don't start by trying to build the world's smartest agent.
 
 Start with something annoying.
+
 Something repetitive.
+
 Something you already know how to do.
 
 Then ask:
-Could I delegate this?
+
+> **Could I delegate this?**
 
 That's the beginning of agent thinking. 🚀
