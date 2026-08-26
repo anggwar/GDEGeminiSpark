@@ -577,23 +577,18 @@ And finally:
 You've gone from:
 
 ```text
-ASK
- ↓
 CONNECT
- ↓
-INSTRUCT
- ↓
+   ↓
+TEACH
+   ↓
 DELEGATE
- ↓
-AUTOMATE
- ↓
-CREATE
- ↓
+   ↓
+PRODUCE
+   ↓
 REUSE
 ```
 
 You didn't write a single line of code.
-
 Instead, you learned how to:
 
 **Connect an agent to your Workspace.**
