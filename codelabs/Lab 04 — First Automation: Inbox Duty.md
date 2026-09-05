@@ -180,6 +180,7 @@ I usually open with "Hi <name>," and sign off with
 
 Use this style when drafting replies for me.
 ```
+![Lab 01](../assets/Lab04-3.jpeg)
 
 You can change this to match your own communication style.
 
@@ -209,6 +210,8 @@ Do not send anything.
 ```
 
 Run the task.
+
+![Lab 01](../assets/Lab04-4.jpeg)
 
 ---
 
