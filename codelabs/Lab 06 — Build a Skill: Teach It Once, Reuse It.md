@@ -319,6 +319,8 @@ Run the same Skill.
 
 Review the result.
 
+![Lab 01](../assets/Lab07-7.jpeg)
+
 Ask yourself:
 
 > **Did I have to explain the workflow again?**
