@@ -42,6 +42,8 @@ Help me prepare for my next training session.
 
 Run the instruction and look at the result.
 
+![Lab 01](../assets/Lab02.jpeg)
+
 Don't worry if Spark asks questions or gives you something generic.
 
 That's the point.
@@ -76,6 +78,8 @@ Do not modify or send anything.
 Run the instruction again.
 
 Compare this result with the previous one.
+
+![Lab 01](../assets/Lab02-2.jpeg)
 
 The agent now has a much better idea of what you actually want.
 
