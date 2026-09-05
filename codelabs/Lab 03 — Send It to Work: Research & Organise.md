@@ -253,7 +253,7 @@ Do not move, rename, delete, or modify files yet.
 
 Run the task.
 
-![Lab 01](../assets/Lab03 step 6.jpeg)
+![Lab 01](../assets/Lab03-6.jpeg)
 
 ---
 
@@ -283,7 +283,7 @@ Do not move anything yet.
 
 Review the updated proposal.
 
-![Lab 01](../assets/Lab03 step 7.jpeg)
+![Lab 01](../assets/Lab03-7.jpeg)
 
 ---
 
