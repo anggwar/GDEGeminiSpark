@@ -140,6 +140,8 @@ Run the task.
 
 Look at what Spark returns.
 
+![Lab 01](assets/Lab01.jpeg)
+
 Check:
 
 - Are the three events correct?
@@ -211,7 +213,7 @@ You're ready for the next lab when:
 
 Spark availability can vary depending on your Google account, subscription, organisation, or region.
 
-If you cannot access Spark, **ask the trainer to verify your account before continuing.**
+If you cannot access Spark, **get Gemini AI Pro or Ultra**
 
 ### Spark can't access Gmail, Calendar, or Drive
 
