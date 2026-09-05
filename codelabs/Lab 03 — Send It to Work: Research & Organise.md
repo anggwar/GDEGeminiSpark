@@ -253,6 +253,8 @@ Do not move, rename, delete, or modify files yet.
 
 Run the task.
 
+![Lab 01](../assets/Lab03 step 6.jpeg)
+
 ---
 
 ## Step 7 — Review the proposed structure
@@ -280,6 +282,8 @@ Do not move anything yet.
 ```
 
 Review the updated proposal.
+
+![Lab 01](../assets/Lab03 step 7.jpeg)
 
 ---
 
