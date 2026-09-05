@@ -140,7 +140,7 @@ Run the task.
 
 Look at what Spark returns.
 
-![Lab 01](assets/Lab01.jpeg)
+![Lab 01](GDEGeminiSpark/assets/Lab01.jpeg)
 
 Check:
 
