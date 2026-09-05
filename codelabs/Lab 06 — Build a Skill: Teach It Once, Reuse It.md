@@ -153,6 +153,8 @@ If important information is missing, identify it instead of guessing.
 
 Notice what changed.
 
+![Lab 01](../assets/Lab06-2.jpeg)
+
 The task is now reusable because the **session information can change** while the workflow stays the same.
 
 ---
@@ -172,6 +174,8 @@ Creates a structured training session brief from session information,
 including objectives, preparation, agenda, and follow-up actions.
 ```
 
+![Lab 01](../assets/Lab06-3.jpeg)
+
 Choose a name that would still make sense six months from now.
 
 Avoid names like:
@@ -183,7 +187,7 @@ Test
 Training Thing
 ```
 
-Future-you deserves better. 😆
+Future-you deserves better.
 
 ---
 
