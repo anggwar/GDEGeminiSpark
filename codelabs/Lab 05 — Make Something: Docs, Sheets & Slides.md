@@ -113,6 +113,8 @@ Do not invent dates, names, or commitments.
 
 Run the task.
 
+![Lab 01](../assets/Lab05-1.jpeg)
+
 ---
 
 ## Step 2 — Review the Doc
@@ -186,6 +188,8 @@ Dimas — Operations — registered — no special requirements
 ```
 
 Run the task.
+
+![Lab 01](../assets/Lab05-3.jpeg)
 
 ---
 
